@@ -1,0 +1,67 @@
+body{
+    background-color: #3e4b60;
+}
+
+.main{
+    margin: 100 0 0 500;
+    height: 400px;
+    width: 330px;
+    background-color: #3e4b60;
+    text-align: center;
+}
+
+.checkbox{
+    text-align: left;
+    margin-left: 21px;
+    color: whitesmoke;
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+.login{
+    display: block;
+}
+
+.signup{
+    display: none;
+}
+
+#btnregister{
+    margin-left: 21px; 
+    margin-right: 21px; 
+    width: 285px; 
+    border:none; 
+    background-color: #43ba7c;
+}
+
+#btnstarted{
+    margin-left: 21px; 
+    margin-right: 21px;
+    width: 285px; 
+    border:none;
+    background-color: #43ba7c;
+}
+
+#btnsignup{
+    float:left;
+    margin-left: 21px; 
+    width: 143px; 
+    color:white; 
+    border: none; 
+    background-color: #43ba7c;
+}
+
+#btnlogin{
+    float:right; 
+    margin-right: 21px; 
+    width: 143px; 
+    color:white; 
+    border: none; 
+    background-color: gray;
+}

@@ -1,0 +1,78 @@
+<html>  
+  <head>
+      <title>Prueba Diagnostica Programación VI</title>
+      <link href="../librerias/bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="css.css" rel="stylesheet" />
+      <script src="../librerias/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+      <script src="script.js"></script>
+
+      <!-- success, info, warning, danger -->
+      <script src="../librerias/jquery-3.2.1/jquery.toaster.js"></script>
+  </head>
+  <body>
+    <!--LOGIN FORM-->
+    <div class="main">
+      </br></br>
+      <button type="button" class="btn btn-default" id="btnsignup">Sign Up</button>
+      <button type="button" class="btn btn-default" id="btnlogin">Log In</button>
+      <div class="login" id="login">
+        <br><br>
+        <h3>Sign Up for Free</h3>
+        </br>
+        <form name="frmsignup">
+          <div class="form-inline">
+            <input class="form-control" type="text" placeholder="First Name *" size="12" id="sign_username" />
+            <input class="form-control" type="text" placeholder="Last Name *" size="12" id="sign_lastname" /></br></br>
+          </div>
+          <div class="form-inline">
+            <input class="form-control" type="text" placeholder="Email *" size="33" id="email1" value="" />
+            <input class="form-control" type="password" placeholder="Set a password *" size="33" id="sign_password" />
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="remember-me" id="rememberme"> Remember me
+            </label>
+          </div>
+          <div class="form-inline">
+            <input type="button" class="btn btn-primary btn-lg btn-block" value="GET STARTED" id="btnstarted" >
+          </div>
+        </form>
+      </div>
+      <!--LOGIN FORM-->
+
+      <!--REGISTER FORM-->
+      <div class="signup" id="signup">
+        </br></br></br>
+        <h4>REGISTRO DE USUSARIOS</h4>
+        </br>
+        <form name="frmlogin">
+          <div class="form-inline">
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+              <input class="form-control" type="text" placeholder="User Name *" size="27" id="login_username" />
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+              <input class="form-control" type="text" placeholder="Email *" size="27" id="email" value="" id="login_lastname" />
+            </div>
+          </div>
+          <div class="form-inline">
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+              <input class="form-control" type="password" placeholder="Password *" size="27" id="password" id="login_password" />
+            </div>
+            <div class="input-group">
+              <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+              <input class="form-control" type="password" placeholder="Confirm password *" size="27" id="confirmPassword" />
+            </div>
+          </div>
+          <br>
+          <div class="form-inline">
+            <input type="button" class="btn btn-primary btn-lg btn-block" value="REGISTRAR" id="btnregister" />
+          </div>
+        </form>
+      </div>
+      <!--REGISTER FORM-->
+    </div>
+  </body>
+</html>
